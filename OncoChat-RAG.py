@@ -671,17 +671,18 @@ class CancerDrugRAG:
 # Section 7: Interactive Chat Loop & CLI
 # ===================================================================
 
+
 BANNER = """
-╔══════════════════════════════════════════════════════╗
-║         Cancer Drugs RAG Chat System                 ║
-║  Ask questions about FDA-approved cancer drugs       ║
-╠══════════════════════════════════════════════════════╣
-║  Commands:                                           ║
-║    sources  — show sources for last answer           ║
-║    rebuild  — rebuild the index from PDFs            ║
-║    help     — show this message                      ║
-║    quit     — exit                                   ║
-╚══════════════════════════════════════════════════════╝
+========================================================
+         Cancer Drugs RAG Chat System
+  Ask questions about FDA-approved cancer drugs
+========================================================
+  Commands:
+    sources  — show sources for last answer
+    rebuild  — rebuild the index from PDFs
+    help     — show this message
+    quit     — exit
+========================================================
 """
 
 
